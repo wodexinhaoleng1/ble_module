@@ -1,1 +1,1 @@
-**For more AT commands, please see http://doc.cloudpeaks.cn/module/uart/VG6328A/VG6328A-MS%E4%B8%BB%E4%BB%8E%E4%B8%80%E4%BD%93BLE%E8%93%9D%E7%89%99%E9%80%8F%E4%BC%A0%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6-V1.0.pdf
+For more AT commands, please see http://doc.cloudpeaks.cn/module/uart/VG6328A/VG6328A-MS%E4%B8%BB%E4%BB%8E%E4%B8%80%E4%BD%93BLE%E8%93%9D%E7%89%99%E9%80%8F%E4%BC%A0%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6-V1.0.pdf
