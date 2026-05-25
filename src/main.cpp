@@ -113,7 +113,7 @@ void setup() {
     pinMode(GPIO_STATUS, OUTPUT);
     digitalWrite(GPIO_STATUS, HIGH);  // 上电默认灭
     pinMode(GPIO_LED, OUTPUT);
-    digitalWrite(GPIO_LED, HIGH);   // 上电默认灭
+    digitalWrite(GPIO_LED, LOW);   // 上电默认灭
 
     Serial.println("\r\n--- VG6328A 透传程序启动 ---");
     for (int i = 3; i > 0; i--) {
@@ -176,9 +176,9 @@ void loop() {
     // ── 4. 数据LED (GPIO_LED): 有数据活动亮 50ms，否则灭 ──
     static uint32_t ledOff = 0;
     if (active) {
-        digitalWrite(GPIO_LED, LOW);   // 亮
+        digitalWrite(GPIO_LED, HIGH);   // 亮
         ledOff = now + 50;
     } else if (now >= ledOff) {
-        digitalWrite(GPIO_LED, HIGH);  // 灭
+        digitalWrite(GPIO_LED, LOW);  // 灭
     }
 }
